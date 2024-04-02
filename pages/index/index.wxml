@@ -44,19 +44,19 @@
         <!-- 男女卡片区 -->
         <view class="twoCardBox">
             <view class="card1">
-                <image id="cardImage1" src="/imgs/man.png" mode="" style="width: 110px;height: 80px;"/>
+                <image id="cardImage1" src="/imgs/man.png" mode="" style="width: 110px;height: 80px;" />
                 <view class="cardContent1">
                     <text style="font-weight: 600;font-size: 14px;">待办事项
                     </text>
-                    <text  style="font-size: 10px;">我的待办事项</text>
+                    <text style="font-size: 10px;">我的待办事项</text>
                 </view>
             </view>
             <view class="card2">
-                <image id="cardImage2" src="/imgs/woman.png" mode="" style="width: 110px;height: 80px;"/>
+                <image id="cardImage2" src="/imgs/woman.png" mode="" style="width: 110px;height: 80px;" />
                 <view class="cardContent2">
                     <text style="font-weight: 600;font-size: 14px;">办事指南
                     </text>
-                    <text  style="font-size: 10px;">办事指南汇总</text>
+                    <text style="font-size: 10px;">办事指南汇总</text>
                 </view>
             </view>
         </view>
@@ -64,19 +64,19 @@
 
         <!-- 通知区域 -->
         <view class="noticeBox">
-            <image src="/imgs/notice.png" mode=""/>
+            <image src="/imgs/notice.png" mode="" />
             <view class="noticeContent">关于系统上线运行的时间</view>
         </view>
         <!-- 通知区域 end -->
 
         <!-- 指南区域 -->
         <view class="zhinanBox">
-            <image src="/imgs/newfeel.png" mode=""/>
+            <image src="/imgs/newfeel.png" mode="" />
             <view class="zhinanContent">
                 <view class="zhinanTitle">办事指南新体验</view>
                 <view class="zhinanText">
                     <text>新增办事指南和消息栏目
-                    办事更便捷</text>
+                        办事更便捷</text>
                 </view>
                 <view class="zhinanGo">去了解</view>
             </view>
@@ -90,10 +90,53 @@
 
         <view class="recommendation">
             <view class="recommendation1">
-                
+                <view class="imageBox">
+                    <image src="/imgs/serrch.png" mode="" />
+                </view>
+                <view class="recommendationContent">
+                    <view class="chengjichaxun">成绩查询</view>
+                    <view style="font-size: 10px;text-align: center;">查询当前历史成绩</view>
+                    <view class="chakanBox">
+                        <image src="/imgs/chakan.png" mode="" />
+                        <view class="chakanBoxText">200+</view>
+                    </view>
+                </view>
+                <view class="addImageBox">
+                    <image src="/imgs/add.png" mode="" />
+                </view>
             </view>
-            <view class="recommendation2"></view>
-            <view class="recommendation3"></view>
+            <view class="recommendation2">
+                <view class="imageBox">
+                    <image src="/imgs/serrch.png" mode="" />
+                </view>
+                <view class="recommendationContent">
+                    <view class="chengjichaxun">成绩查询</view>
+                    <view style="font-size: 10px;text-align: center;">查询当前历史成绩</view>
+                    <view class="chakanBox">
+                        <image src="/imgs/chakan.png" mode="" />
+                        <view class="chakanBoxText">300+</view>
+                    </view>
+                </view>
+                <view class="addImageBox">
+                    <image src="/imgs/add.png" mode="" />
+                </view>
+            </view>
+            <view class="recommendation3">
+                <view class="imageBox">
+                    <image src="/imgs/serrch.png" mode="" />
+                </view>
+                <view class="recommendationContent">
+                    <view class="chengjichaxun">成绩查询</view>
+                    <view style="font-size: 10px;text-align: center;">查询当前历史成绩</view>
+                    <view class="chakanBox">
+                        <image src="/imgs/chakan.png" mode="" />
+                        <view class="chakanBoxText">1500+</view>
+                    </view>
+                </view>
+                <view class="addImageBox">
+                    <image src="/imgs/add.png" mode="" />
+                </view>
+            </view>
         </view>
 
     </view>
