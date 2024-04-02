@@ -1,10 +1,45 @@
 /**index.wxss**/
-page {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
+.box{
+    width: 350px;
+    height: 658px;
+    background-color: rgb(185, 167, 167);
+    margin: 0 auto;
+    margin-top: 10px;
 }
-.scrollarea {
-  flex: 1;
-  overflow-y: hidden;
+
+.top-banner{
+    width: 350px;
+    height: 140px;
+    background-color: rgb(211, 104, 104);
+    border-radius: 30px;
+    position: relative;
+}
+
+.bannerImage{
+    position: absolute;
+}
+
+.banner-content{
+    margin-left: 15px;
+    width: 160px;
+    height: 100px;
+    position: absolute;
+    z-index: 1;
+    margin-top: 20px;
+}
+.go{
+    font-weight: 500;
+    color: white;
+    width: 60px;
+    height: 25px;
+    font-size: 12px;
+    border: 1px solid white;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 25px;
+    margin-top: 10px;
+}
+
+.types{
+    display: flex;
 }
