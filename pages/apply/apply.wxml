@@ -3,7 +3,13 @@
 <scroll-view class="scrollarea" scroll-y type="list">
     <view class="headBox">
         <view class="headBoxTitle">应用</view>
-        <view class="searchBox"></view>
-        <view class="headBoxRight"></view>
+        <view class="searchBox">
+            <image src="/imgs/search.png" mode=""/>
+            <input class="input" name="userName" placeholder="搜索 应用消息 新闻" auto-focus="true" />
+        </view>
+        <view class="headBoxRight">
+            <image src="/imgs/scode.png" mode=""/>
+            <image src="/imgs/m.png" mode=""/>
+        </view>
     </view>
 </scroll-view>
