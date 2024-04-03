@@ -43,7 +43,14 @@
     <!-- 消息列表 end -->
 
     <!-- 消息列表详情 -->
-    <view></view>
+    <view class="mesDetailBox">
+        <view class="mesDetail"></view>
+        <view class="mesDetail"></view>
+        <view class="mesDetail"></view>
+        <view class="mesDetail"></view>
+    </view>
+    <!-- 消息列表详情 end -->
+
     </view>
 
 </scroll-view>

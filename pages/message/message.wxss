@@ -83,3 +83,17 @@
     text-align: center;
     width: 100%;
 }
+.mesDetailBox{
+    width: 100%;
+    height: 320px;
+    background-color: oldlace;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.mesDetail{
+    width: 100%;
+    height: 60px;
+    background-color: orange;
+}
