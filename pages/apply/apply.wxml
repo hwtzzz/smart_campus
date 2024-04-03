@@ -1,15 +1,36 @@
 <!-- 自定义状态栏 -->
+
 <head></head>
 <scroll-view class="scrollarea" scroll-y type="list">
     <view class="headBox">
         <view class="headBoxTitle">应用</view>
         <view class="searchBox">
-            <image src="/imgs/search.png" mode=""/>
+            <image src="/imgs/search.png" mode="" />
             <input class="input" name="userName" placeholder="搜索 应用消息 新闻" auto-focus="true" />
         </view>
         <view class="headBoxRight">
-            <image src="/imgs/scode.png" mode=""/>
-            <image src="/imgs/m.png" mode=""/>
+            <image src="/imgs/scode.png" mode="" />
+            <image src="/imgs/m.png" mode="" />
+        </view>
+    </view>
+    <view class="box">
+        <view class="twoCardBox">
+            <view class="card1">
+                <image id="cardImage1" src="/imgs/appgirl.png" mode="" style="width: 60px;height: 70px;" />
+                <view class="cardContent1">
+                    <text style="font-weight: 600;font-size: 14px;">待办事项
+                    </text>
+                    <text style="font-size: 10px;">我的待办事项</text>
+                </view>
+            </view>
+            <view class="card2">
+                <image id="cardImage2" src="/imgs/appboy.png" mode="" style="width: 80px;height: 70px;" />
+                <view class="cardContent2">
+                    <text style="font-weight: 600;font-size: 14px;">办事指南
+                    </text>
+                    <text style="font-size: 10px;">办事指南汇总</text>
+                </view>
+            </view>
         </view>
     </view>
 </scroll-view>
