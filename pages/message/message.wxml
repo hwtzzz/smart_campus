@@ -2,6 +2,30 @@
 <head></head>
 <scroll-view class="scrollarea" scroll-y type="list">
 
+    <!-- 头部搜索框 -->
+    <view class="headBox">
+        <view class="headBoxTitle">消息</view>
+        <view class="searchBox">
+            <image src="/imgs/search.png" mode="" />
+            <input class="input" name="userName" placeholder="搜索 应用消息 新闻" auto-focus="true" />
+        </view>
+        <view class="headBoxRight">
+            <image src="/imgs/scode.png" mode="" />
+            <image src="/imgs/m.png" mode="" />
+        </view>
+    </view>
+    <!-- 头部搜索框 end -->
 
+    <view class="box">
+        <!-- 消息列表 -->
+    <view class="mesListBox">
+        <view class="mesList"></view>
+        <view class="mesList"></view>
+        <view class="mesList"></view>
+        <view class="mesList"></view>
+        <view class="mesList"></view>
+    </view>
+    <!-- 消息列表 end -->
+    </view>
 
 </scroll-view>
