@@ -1,2 +1,7 @@
 <!--pages/message/message.wxml-->
-<text>pages/message/message.wxml</text>
+<head></head>
+<scroll-view class="scrollarea" scroll-y type="list">
+
+
+
+</scroll-view>
