@@ -2,17 +2,20 @@
 
 <head></head>
 <scroll-view class="scrollarea" scroll-y type="list">
+    <!-- 头部搜索栏 -->
     <view class="headBox">
         <view class="headBoxTitle">应用</view>
         <view class="searchBox">
             <image src="/imgs/search.png" mode="" />
-            <input class="input" name="userName" placeholder="搜索 应用消息 新闻" auto-focus="true" />
+            <input class="input" name="userName" placeholder="搜索 应用消息 新闻" auto-focus="false" />
         </view>
         <view class="headBoxRight">
             <image src="/imgs/scode.png" mode="" />
             <image src="/imgs/m.png" mode="" />
         </view>
     </view>
+    <!-- 头部搜索栏 end -->
+    
     <view class="box">
         <!-- 男生女生卡片 -->
         <view class="twoCardBox">

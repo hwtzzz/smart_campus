@@ -7,7 +7,7 @@
         <view class="headBoxTitle">消息</view>
         <view class="searchBox">
             <image src="/imgs/search.png" mode="" />
-            <input class="input" name="userName" placeholder="搜索 应用消息 新闻" auto-focus="true" />
+            <input class="input" name="userName" placeholder="搜索 应用消息 新闻" auto-focus="false" />
         </view>
         <view class="headBoxRight">
             <image src="/imgs/scode.png" mode="" />
