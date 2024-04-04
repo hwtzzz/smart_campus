@@ -1,11 +1,41 @@
 // pages/login/login.js
 Page({
+    searchUserName: function (e) {
+        this.setData({
+            username: e.detail.value
+        })
+    },
+    searchPassWord: function (e) {
+        this.setData({
+            password: e.detail.value
+        })
+    },
+    go: function () {
+        if (this.data.username == '' || this.data.password == '') {
+            wx.showToast({
+                title: '不能为空',
+                icon: 'error',
+                duration: 1000 //持续的时间
+            })
+        } else if (this.data.username != 'admin' || this.data.password != 'admin') {
+            wx.showToast({
+                title: '用户名密码错误',
+                icon: 'error',
+                duration: 1000 //持续的时间
+            })
+        } else {
+            wx.switchTab({
+                url: "/pages/index/index"
+            })
+        }
+    },
 
     /**
      * 页面的初始数据
      */
     data: {
-        
+        username: '',
+        password: ''
     },
 
     /**

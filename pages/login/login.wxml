@@ -15,8 +15,8 @@
 
     <!-- 输入框 -->
     <view class="loginBox">
-        <input class="input" name="userName" placeholder="请输入登录账号" placeholder-class="placeholderColor" />
-        <input class="password" type="password" name="userName" placeholder="请输入密码" placeholder-class="placeholderColor" />
+        <input class="input" name="username" placeholder="请输入登录账号" placeholder-class="placeholderColor" bindinput='searchUserName' />
+        <input class="password" type="password" name="userName" placeholder="请输入密码" placeholder-class="placeholderColor" bindinput='searchPassWord' />
     </view>
     <!-- 输入框 end -->
 
@@ -25,21 +25,21 @@
     <!-- 账号密码登录提示 end -->
 
     <!-- 点击登录 -->
-    <view class="loginBtn">登录</view>
+    <view class="loginBtn" bindtap='go'>登录</view>
     <!-- 点击登录 -->
 
     <!-- 底部其他登录方式 -->
     <view class="buttomLoginBox">
         <view class="bl">
-            <image src="/imgs/shualian.png" mode=""/>
+            <image src="/imgs/shualian.png" mode="" />
             <view class="otherLoginText">刷脸登录</view>
         </view>
         <view class="bl">
-            <image src="/imgs/weibo.png" mode=""/>
+            <image src="/imgs/weibo.png" mode="" />
             <view class="otherLoginText">微博登录</view>
         </view>
         <view class="bl">
-            <image src="/imgs/weixin.png" mode=""/>
+            <image src="/imgs/weixin.png" mode="" />
             <view class="otherLoginText">微信登录</view>
         </view>
     </view>
