@@ -1,6 +1,10 @@
 // pages/set/set.js
 Page({
-
+    goMine: function () {
+        wx.switchTab({
+            url: "/pages/mine/mine"
+        })
+    },
     /**
      * 页面的初始数据
      */
