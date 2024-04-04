@@ -15,7 +15,7 @@
         </view>
     </view>
     <!-- 头部搜索栏 end -->
-    
+
     <view class="box">
         <!-- 男生女生卡片 -->
         <view class="twoCardBox">
@@ -36,6 +36,7 @@
                 </view>
             </view>
         </view>
+        <!-- 男生女生卡片 end -->
 
         <!--  推荐应用  -->
         <view style="font-size: 18px;font-weight: 800;margin-top: 20px;">推荐应用</view>
