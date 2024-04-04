@@ -1,1 +1,25 @@
 /* pages/set/set.wxss */
+.box {
+    width: 350px;
+    height: 680px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+.topBox{
+    height: 30px;
+}
+.setText{
+    width: 50px;
+    height: 30px;
+    font-size: 19px;
+    font-weight: 500;
+    float: left;
+    margin-left: 130px;
+    line-height: 30px;
+}
+.topBox image{
+    width: 25px;
+    height: 25px;
+    float: left;
+    margin-top: 2.5px;
+}

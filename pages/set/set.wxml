@@ -1,2 +1,11 @@
 <!--pages/set/set.wxml-->
-<text>pages/set/set.wxml</text>
+
+<head></head>
+<view class="box">
+
+    <view class="topBox">
+        <image src="/imgs/fanhui.png" mode="" />
+        <view class="setText">设置</view>
+    </view>
+
+</view>
