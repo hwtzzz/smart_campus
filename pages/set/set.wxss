@@ -23,3 +23,44 @@
     float: left;
     margin-top: 2.5px;
 }
+.setList{
+    height: 250px;
+    width: 100%;
+    margin-top: 50px;
+}
+.list{
+    height: 50px;
+    width: 100%;
+    border-bottom: 1px solid rgb(241, 238, 238);
+}
+.list image{
+    width: 24px;
+    height: 24px;
+    margin-top: 13px;
+    float: left;
+}
+.setTitle{
+    float: left;
+    margin-left: 15px;
+    line-height: 50px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.tuichuBox{
+    height: 25px;
+    width: 100%;
+    margin-top: 50px;
+}
+.tuichuBox image{
+    width: 24px;
+    height: 24px;
+    float: left;
+}
+.tuichu{
+    color: #49a7d8;
+    float: left;
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 25px;
+}
