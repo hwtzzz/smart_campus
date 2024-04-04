@@ -227,3 +227,43 @@
     margin-left: 65px;
     margin-top: 15px;
 }
+.appBox{
+    width: 100%;
+    height: 130px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.appBoxList{
+    width: 80px;
+    height: 50px;
+    text-align: center;
+}
+.appBoxList image{
+    width: 25px;
+    height: 25px;
+}
+.dianzijiaowu{
+    font-size: 15px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+.appBox2{
+    width: 100%;
+    height: 50px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.appBox2List{
+    width: 80px;
+    height: 50px;
+    text-align: center;
+}
+.appBox2List image{
+    width: 25px;
+    height: 25px;
+}
