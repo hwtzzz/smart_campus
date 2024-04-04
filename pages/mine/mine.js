@@ -7,6 +7,11 @@ Page({
     data: {
 
     },
+    goSet: function () {
+        wx.navigateTo({
+            url: "/pages/set/set"
+        })
+    },
 
     /**
      * 生命周期函数--监听页面加载

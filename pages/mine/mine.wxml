@@ -2,7 +2,7 @@
 <scroll-view class="scrollarea" scroll-y type="list">
     <!-- 头部状态栏 -->
     <view class="myHead">
-        <view class="myHeadSet">
+        <view class="myHeadSet"  bindtap='goSet'>
             <image src="/imgs/myset.png" mode="" />
         </view>
         <view class="myHeadText">我的</view>
