@@ -1,16 +1,29 @@
 <!--pages/found/found.wxml-->
+
 <head></head>
 
 <!-- 头部搜索框 -->
 <view class="headBox">
-        <view class="headBoxTitle">消息</view>
-        <view class="searchBox">
-            <image src="/imgs/search.png" mode="" />
-            <input class="input" name="userName" placeholder="搜索 应用消息 新闻" auto-focus="true" />
-        </view>
-        <view class="headBoxRight">
-            <image src="/imgs/scode.png" mode="" />
-            <image src="/imgs/m.png" mode="" />
+    <view class="headBoxTitle">消息</view>
+    <view class="searchBox">
+        <image src="/imgs/search.png" mode="" />
+        <input class="input" name="userName" placeholder="搜索 应用消息 新闻" auto-focus="true" />
+    </view>
+    <view class="headBoxRight">
+        <image src="/imgs/scode.png" mode="" />
+        <image src="/imgs/m.png" mode="" />
+    </view>
+</view>
+<!-- 头部搜索框 end -->
+
+<view class="box">
+    <!-- banner -->
+    <view class="banner">
+        <image src="/imgs/findationimgs/top.png" mode=""/>
+        <view class="bannerContent">
+            <view class="bannerTitle">发现新鲜事</view>
+            <view class="bannerText">校内各院系各部门重要新闻汇报随时随地查看</view>
         </view>
     </view>
-    <!-- 头部搜索框 end -->
+    <!-- banner end -->
+</view>
