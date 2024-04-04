@@ -1,6 +1,10 @@
 <!--pages/mine/mine.wxml-->
 <view class="myHead">
-    <view class="myHeadSet"></view>
+    <view class="myHeadSet">
+        <image src="/imgs/myset.png" mode=""/>
+    </view>
     <view class="myHeadText">我的</view>
-    <view class="myHeadMes"></view>
+    <view class="myHeadMes">
+        <image src="/imgs/mymes .png" mode=""/>
+    </view>
 </view>

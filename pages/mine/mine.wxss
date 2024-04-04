@@ -1,16 +1,37 @@
 /* pages/mine/mine.wxss */
 .myHead{
-    height: 130px;
+    height: 120px;
     width: 100%;
     background: linear-gradient(0deg, #f7f7f7cc, #75eeda);
-    box-shadow: 10px 10px 10px rgba(109, 230, 189, 0.1);
+    box-shadow: 15px 15px 15px rgba(109, 230, 189, 0.1);
+    position: relative;
+}
+.myHead image{
+    width: 20px;
+    height: 20px;
 }
 .myHeadSet{
-
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 100px;
+    left: 17.5px;
 }
 .myHeadText{
-
+    width: 60px;
+    height: 20px;
+    position: absolute;
+    top: 100px;
+    left: 157.5px;
+    text-align: center;
+    line-height: 20px;
+    font-size: 15px;
+    font-weight: 600;
 }
 .myHeadMes{
-    
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 100px;
+    left: 337.5px;
 }
