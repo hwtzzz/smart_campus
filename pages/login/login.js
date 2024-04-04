@@ -31,6 +31,18 @@ Page({
         }
     },
 
+    //跳转到刷脸登录
+    goBrushFace:function() {
+        wx.navigateTo({
+            url: "/pages/brushface/brushface"
+        })
+    },
+    goOneClickLogin:function() {
+        wx.navigateTo({
+            url: "/pages/oneclicklogin/oneclicklogin"
+        })
+    },
+
     /**
      * 页面的初始数据
      */

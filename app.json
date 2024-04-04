@@ -1,12 +1,15 @@
 {
   "pages": [
-    "pages/index/index",
     "pages/login/login",
+    "pages/index/index",
+    
     "pages/apply/apply",
     "pages/message/message",
     "pages/found/found",
     "pages/mine/mine",
-    "pages/set/set"
+    "pages/set/set",
+    "pages/brushface/brushface",
+    "pages/oneclicklogin/oneclicklogin"
   ],
   "window": {
     "navigationStyle": "custom",
