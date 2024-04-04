@@ -26,4 +26,14 @@
         </view>
     </view>
     <!-- banner end -->
+
+    <!-- 导航栏 -->
+    <view class="menu">
+            <view id="menuFirst">通知公告</view>
+            <view class="menu1">学校新闻</view>
+            <view class="menu1">综合信息</view>
+            <view class="menu1">学术动态</view>
+        </view>
+    <!-- 导航栏 end -->
+
 </view>
