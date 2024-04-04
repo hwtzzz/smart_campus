@@ -5,7 +5,8 @@
     "pages/apply/apply",
     "pages/message/message",
     "pages/found/found",
-    "pages/mine/mine"
+    "pages/mine/mine",
+    "pages/set/set"
   ],
   "window": {
     "navigationStyle": "custom",

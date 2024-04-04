@@ -10,6 +10,7 @@ Page({
             password: e.detail.value
         })
     },
+    //登录
     go: function () {
         if (this.data.username == '' || this.data.password == '') {
             wx.showToast({
