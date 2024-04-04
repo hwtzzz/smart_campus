@@ -1,1 +1,16 @@
 /* pages/mine/mine.wxss */
+.myHead{
+    height: 130px;
+    width: 100%;
+    background: linear-gradient(0deg, #f7f7f7cc, #75eeda);
+    box-shadow: 10px 10px 10px rgba(109, 230, 189, 0.1);
+}
+.myHeadSet{
+
+}
+.myHeadText{
+
+}
+.myHeadMes{
+    
+}

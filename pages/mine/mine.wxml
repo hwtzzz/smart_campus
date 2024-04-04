@@ -1,2 +1,6 @@
 <!--pages/mine/mine.wxml-->
-<text>pages/mine/mine.wxml</text>
+<view class="myHead">
+    <view class="myHeadSet"></view>
+    <view class="myHeadText">我的</view>
+    <view class="myHeadMes"></view>
+</view>
