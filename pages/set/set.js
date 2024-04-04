@@ -5,6 +5,11 @@ Page({
             url: "/pages/mine/mine"
         })
     },
+    goLogin: function () {
+        wx.navigateTo({
+            url: "/pages/login/login"
+        })
+    },
     /**
      * 页面的初始数据
      */

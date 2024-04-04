@@ -37,8 +37,8 @@
 
     <!-- 退出登录 -->
     <view class="tuichuBox">
-        <image src="/imgs/tuichu.png" mode=""/>
-        <view class="tuichu">退出登录</view>
+        <image src="/imgs/tuichu.png" mode="" bindtap='goLogin' />
+        <view class="tuichu" bindtap='goLogin'>退出登录</view>
     </view>
     <!-- 退出登录 end -->
 
