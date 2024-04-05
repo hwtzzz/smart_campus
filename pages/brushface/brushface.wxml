@@ -14,7 +14,7 @@
     </view>
     <!-- 头像 end -->
 
-    <view class="name">宋歌你好</view>
+    <view class="name">胡文韬你好</view>
     <view class="welcome">欢迎登录智慧门户系统,请进行人脸验证</view>
     <!-- 人脸识别图像文字 end -->
     <view class="shualian">

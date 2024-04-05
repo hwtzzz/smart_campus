@@ -31,7 +31,7 @@
 }
 
 .name {
-    width: 113px;
+    width: 140px;
     height: 40px;
     line-height: 40px;
     color: rgb(16, 16, 16);
