@@ -289,7 +289,7 @@
 }
 .announcementList{
     width: 100%;
-    height: 270px;
+    height: 220px;
 }
 .announcementList1{
     width: 100%;
