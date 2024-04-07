@@ -5,7 +5,7 @@
     <!-- 顶部 -->
     <view class="top">
         <image src="/imgs/guanbi.png" mode="" />
-        <view class="topRight">验证码登录</view>
+        <view class="topRight" bindtap='goOneClickLogin'>验证码登录</view>
     </view>
     <!-- 顶部 end -->
 
